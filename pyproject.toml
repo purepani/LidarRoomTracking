@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lidarroomtracking"
+version = "0.1.0"
+description = ""
+authors = ["purepani <pani0028@umn.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.7.2"
+numpy = "^1.25.2"
+pyqt5 = "^5.15.9"
+pyqtgraph = "^0.13.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
